@@ -7,7 +7,7 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
   if (message.content.startsWith("help")) {
-    message.channel.send("Copy that, Help is on its way ETA:*Crash*....");
+    message.reply("Copy that, Help is on its way ETA:*Crash*....");
   }
 });
 
