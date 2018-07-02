@@ -12,9 +12,8 @@ client.on("message", (message) => {
   if (message.content.startsWith("/invite")) {
     message.channel.send("https://discord.gg/v2wwYWE");
   }
-  if (message.content.startwith("/events")){
-   message.channel.send("Current Events related misfit are: 1.Team Extreme's 7th Birthday);
-  }
+  if (message.content.startsWith("/events")) {  
+    message.channel.send("*Current Events related Misfit Are:* , 1. Team Extreme's Birthday");  }
 });
 
 client.login(process.env.BOT_TOKEN);
