@@ -14,13 +14,13 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cracraftyfty/Suntsu"
+    "url": "git+https://github.com/CraftTech99/Misfit"
   },
   "keywords": [
     "heroku",
     "discord.js"
   ],
-  "author": "cracraftyfty",
+  "author": "CraftTech99",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.3.2"
