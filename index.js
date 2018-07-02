@@ -13,7 +13,7 @@ client.on("message", (message) => {
     message.channel.send("https://discord.gg/v2wwYWE");
   }
   if (message.content.startwith("/events")){
-   message.channel.send("Current Events related misfit are:, 1.Team Extreme's 7th Birthday
+   message.channel.send("**Current Events related misfit are:**, 1.Team Extreme's 7th Birthday);
   }
 });
 
