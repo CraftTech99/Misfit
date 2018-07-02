@@ -7,10 +7,13 @@ client.on("message", (message) => {
   
   if (message.content.startsWith("/help")) {
     message.channel.send("Help is on the way~");
-  } else
+  }
 
   if (message.content.startsWith("/invite")) {
     message.channel.send("https://discord.gg/v2wwYWE");
+  }
+  if (message.content.startwith("/events"));
+   message.channel.send("**Current Events related misfit are:**, 1.Team Extreme's 7th Birthday
   }
 });
 
