@@ -6,8 +6,8 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("pong!");
+  if (message.content.startsWith("help")) {
+    message.channel.send("Copy that, Help is on its way ETA:*Crash*....");
   }
 });
 
