@@ -53,10 +53,10 @@ client.on("message", (message) => {
 
   if (message.content.startsWith(`${prefix}botinfo`)) {
 
-    let botembed = new Discord.RichEmbed ()
-    .setDescription ("Bot Information")
+    let botembed = new Discord.RichEmbed()
+    .setDescription("Bot Information")
     .setColor("#118e34")
-    .addField("Bot Name", bot.user.username);
+    .addField("Bot Name", bot.user.username)
 
     return message.channel.send (botembed);
   }
