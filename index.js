@@ -55,8 +55,15 @@ client.on("message", (message) => {
 client.on("message", async message => {
   if(message.author.client) return;
   if(message.channel.type === "dm") return;
+ 
+  let messageArray = message.content.split (" ");
+  let cmd = messageArray [0];
+  let args = messageArray.slice(1);
   
-  let prefix = (process.env.BOT_PREFIX)
+  if (cmd === '/hello') {
+   return.channel.send("Hello Ranger!") ;
+  }
+  
   
 
 client.login(process.env.BOT_TOKEN);
