@@ -63,7 +63,7 @@ client.on("message", async message => {
   if (cmd === '/hello') {
    return.channel.send("Hello Ranger!") ;
   }
-  
+});
   
 
 client.login(process.env.BOT_TOKEN);
