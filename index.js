@@ -13,7 +13,7 @@ client.on("message", (message) => {
     message.channel.send("https://discord.gg/v2wwYWE");
   }
   if (message.content.startsWith("/events")) {  
-    message.channel.send("*Current Events related Misfit Are:* , 1. Team Extreme's Birthday ");
+    message.channel.send("```Current Events related Misfit Are:``` , 1. Team Extreme's Birthday ");
   }
    if (message.content.startsWith("/1")) {  
     message.channel.send("Main Topic, DP, Pixel Art Build Battle, Maze, Horse Race, Trivia, Doms trivia, GiveAway, rafle");
