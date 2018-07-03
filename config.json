@@ -1,5 +1,5 @@
 {
-  "prefix": require {
-  (process.env.BOT_PREFIX)
+  "prefix": 'require' {
+  ('process.env.BOT_PREFIX')
 }
 }
