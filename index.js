@@ -61,7 +61,7 @@ client.on("message", (message) => {
     .setColor("#118e34")
     .addField("Bot Name", bot.user.username)
 
-    return message.channel.send (botembed);
+    message.channel.send (botembed);
   }
 
 
