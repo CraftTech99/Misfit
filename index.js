@@ -6,7 +6,7 @@ client.on('ready', () => {
 client.on("message", (message) => {
   
   if (message.content.startsWith("/help")) {
-    message.channel.send("Help is on the way~");
+    message.channel.send("```Commands:``` /invite, /events");
   }
 
   if (message.content.startsWith("/invite")) {
