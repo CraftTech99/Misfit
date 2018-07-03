@@ -3,6 +3,8 @@ client.on('ready', () => {
   console.log('I am ready!');
 });
 
+client.user.setstatus('online')
+client.user.setPresence({ game: { name: 'Preparing to Breach in!', type: 0 } });
 
 client.on("message", (message) => {
   
