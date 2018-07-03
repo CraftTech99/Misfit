@@ -1,4 +1,5 @@
-const Discord = require('discord.js');const client = new Discord.Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
 client.on('ready', () => {  
   console.log('I am ready!');
 });
@@ -49,5 +50,13 @@ client.on("message", (message) => {
     message.channel.send("https://forums.teamextrememc.com/index.php/topic/86329-te-7th-birthday-raffle/");
   }
 });
+
+
+client.on("message", async message => {
+  if(message.author.client) return;
+  if(message.channel.type === "dm") return;
+  
+  let prefix = (process.env.BOT_PREFIX)
+  
 
 client.login(process.env.BOT_TOKEN);
