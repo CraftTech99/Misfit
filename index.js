@@ -1,9 +1,9 @@
 const Discord = require('discord.js');const client = new Discord.Client();
 client.on('ready', () => {  
   console.log('I am ready!');
-  bot.user.setPresence({ status: 'online', game: { name: 'Preparing for Breachin' }
-});
 
+});
+client.user.setGame('Preparing for breachin!')
 client.on("message", (message) => {
   
   if (message.content.startsWith("/help")) {
