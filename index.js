@@ -1,7 +1,7 @@
 const Discord = require('discord.js');const client = new Discord.Client();
 client.on('ready', () => {  
   console.log('I am ready!');
-  bot.user.setPresence({ status: 'online', game: { name: 'Preparing for Breachin' } });
+  bot.user.setPresence({ status: 'online', game: { name: 'Preparing for Breachin' }
 });
 
 client.on("message", (message) => {
