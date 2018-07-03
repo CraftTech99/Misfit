@@ -51,12 +51,12 @@ client.on("message", (message) => {
     message.channel.send("https://forums.teamextrememc.com/index.php/topic/86329-te-7th-birthday-raffle/");
   }
 
-  if (cmd === `${prefix}botinfo`) {
+  if (message.content.startsWith(`${prefix}botinfo`)) {
 
     let botembed = new Discord.RichEmbed ()
     .setDescription ("Bot Information")
     .setColor("#118e34")
-    .addfield("Bot Name", bot.user.username);
+    .addField("Bot Name", bot.user.username);
 
     return message.channel.send (botembed);
   }
