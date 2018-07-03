@@ -50,6 +50,9 @@ client.on("message", (message) => {
   if (message.content.startsWith(`${prefix}rafle`)) {
     message.channel.send("https://forums.teamextrememc.com/index.php/topic/86329-te-7th-birthday-raffle/");
   }
+});
+
+client.on("message", (message) => {
 
   if (message.content.startsWith(`${prefix}botinfo`)) {
 
